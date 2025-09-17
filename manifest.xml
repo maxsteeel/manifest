@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
+  <remote  name="codeberg" fetch="https://codeberg.org" />
+  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
+  <project path="build" name="kernel/build" remote="aosp" />
+  <project path="common" name="ums9230-mainline/linux" remote="codeberg" revision="ums9230" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
+  <project path="kernel/tests" name="kernel/tests" remote="aosp" revision="main" />
+  <project path="kernel/configs" name="kernel/configs" remote="aosp" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" remote="aosp" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" remote="aosp" clone-depth="1" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" remote="aosp" revision="main" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" remote="aosp" revision="main" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
+</manifest>
