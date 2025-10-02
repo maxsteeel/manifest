@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
   <remote  name="github" fetch="https://github.com" />
+  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
   <project path="build" name="kernel/build" remote="aosp" />
   <project path="common" name="maxsteeel/android_kernel5.4_sprd" remote="github" revision="main" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" revision="main" />
