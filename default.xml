@@ -4,7 +4,7 @@
   <remote  name="github" fetch="https://github.com" />
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
   <project path="build" name="kernel/build" remote="aosp" />
-  <project path="common" name="Veynamer/s19mps-kernel" remote="github" revision="master" />
+  <project path="common" name="maxsteeel/s19mps-kernel" remote="github" revision="patch-1" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" revision="main" />
   <project path="kernel/configs" name="kernel/configs" remote="aosp" />
   <project path="prebuilts/gcc-aarch64" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
