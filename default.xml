@@ -7,7 +7,7 @@
   <project path="common" name="maxsteeel/android_kernel_unisoc" remote="github" revision="master" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" revision="main" />
   <project path="kernel/configs" name="kernel/configs" remote="aosp" />
-  <project path="prebuilts-master/clang/host/linux-x86" name="ravindu644/proton-12" remote="github" clone-depth="1" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="ravindu644/proton-12" remote="github" revision="main" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" remote="aosp" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" remote="aosp" clone-depth="1" />
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" remote="aosp" revision="main" clone-depth="1" />
